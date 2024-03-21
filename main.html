@@ -8,6 +8,59 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="jobApplicationForm" method="post">
+
+		<div>
+			<label class="required-label" for="name">Full Name:</label>
+	        <input name="name" type="text" id="name" required>
+		</div>
+        
+
+		<div>
+	        <label class="required-label" for="email">Email:</label>
+	        <input name="Email" type="Email" id="email" required>
+		</div>
+
+		<div>
+	        <label name="gender" class="required-label" for="gender">Gender:</label>
+	        <input type="radio" id="male" name="gender" value="male" required>
+			<label for="male">Male</label>
+	        <input type="radio" id="female" name="gender" value="female" required>
+			<label for="female">Female</label>
+		</div>    
+        
+
+		<div>
+		  <label class="required-label" for="cars">Car Brands:</label>
+			<select name="carage" id="cars">
+	            <option value="BMW">BMW</option>
+	            <option value="Audi">Audi</option>
+	            <option value="Mercedez">Mercedez</option>
+	        </select>
+		</div>
+        
+		<div>
+	        <label class="required-label" for="carage">Car Age:</label>
+	        <input name="carage" type="number" id="carage" required>
+		</div>
+        
+		<div>
+	        <label class="required-label" for="dop">Date of Purchase :</label>
+	        <input name="dop" type="date" id="dop" required>
+		</div>
+
+		<div>
+	        <label class="required-label" for="password">Password:</label>
+	        <input name="password" type="password" id="password" required>
+		</div>
+
+		<div>
+	        <label for="portfolio">Portfolio URL:</label>
+	        <input type="url" id="portfolio" required>
+		</div>
+
+        <button type ="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
